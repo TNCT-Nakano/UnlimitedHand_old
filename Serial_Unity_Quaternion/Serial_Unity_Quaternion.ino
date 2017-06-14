@@ -57,7 +57,7 @@ void setup() {
 // LOOP
 ///////////////////////////////////////////////////////////////////////////////
 void loop() {
-  uh.updateEMS(); // you can choose also "updateEMS_POWERFUL();"
+  uh.updateEMS_POWERFUL(); // you can choose also "updateEMS_POWERFUL();"
   
   if(isHighSpeedMode){uh.checkXYZPR(); }
 }
